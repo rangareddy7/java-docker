@@ -51,5 +51,6 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>java</finalName>     
     </build>
 </project>
