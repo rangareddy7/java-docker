@@ -1,3 +1,3 @@
 FROM openjdk:8
-COPY target/netty-example-1.0-SNAPSHOT.jar /opt/app/netty-example-1.0-SNAPSHOT.jar
-CMD ["java", "-jar", "/opt/app/netty-example-1.0-SNAPSHOT.jar"]
+COPY target/java-1.0.jar /opt/app/java-1.0.jar
+CMD ["java", "-jar", "/opt/app/java-1.0.jar"]
